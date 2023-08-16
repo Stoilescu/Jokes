@@ -1,0 +1,41 @@
+body {
+    min-height: 70vh;
+    background-color: white;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+.container {
+    background: url('https://media.tenor.com/KC5HIotG-bgAAAAd/cute-robot.gif');
+    height: 100%;
+min-height: 920px;
+width: 100%;
+background-repeat: no-repeat;
+display: flex;
+justify-content: top;
+align-items: center;
+flex-direction: column;
+background-position: center;
+background-size: 100%;
+}
+
+button {
+    cursor: pointer;
+    width: 200px;
+    background: #ff3282;
+    border: none;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.speech-bubble {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    max-width: 50px 0;
+}
